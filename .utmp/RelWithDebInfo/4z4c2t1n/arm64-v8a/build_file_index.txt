@@ -1,0 +1,2 @@
+C:\Users\eduar\Desktop\Unity Projects\AR_Mirror_Safety\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\eduar\Desktop\Unity Projects\AR_Mirror_Safety\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
