@@ -9,17 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: a17a2aaf09099f148ae989a248f8a411
   - enabled: 1
-    path: Assets/Scenes/SideMirror.unity
+    path: Assets/Scenes/SideMirror-Both.unity
     guid: 5db3bfbe61bf4c94681a197b3b7e36bd
   - enabled: 1
-    path: Assets/Scenes/RearView.unity
+    path: Assets/Scenes/RearView-Both.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RearView-Stop.unity
-    guid: 620759656976b1544ba75c667cfed780
-  - enabled: 1
+    guid: 109b78acc50e263438e1454457e3429f
+  - enabled: 0
     path: Assets/Scenes/SideMirror-Stop.unity
-    guid: 6c9abc9b48449f14b9287be38442a0ca
+    guid: a85613829bbcbf54198f2a693d3bb4b8
+  - enabled: 1
+    path: Assets/Scenes/RearView-Haptic.unity
+    guid: 827f6b57933b19e4db693f714073b8c4
+  - enabled: 1
+    path: Assets/Scenes/RearView-Sound.unity
+    guid: 50be17c8f2e141641b07e32d58f451fb
+  - enabled: 1
+    path: Assets/Scenes/SideMirror-Haptic.unity
+    guid: 1aaf8d021d96072469948a1a78fe1de2
+  - enabled: 1
+    path: Assets/Scenes/SideMirror-Sound.unity
+    guid: f67efcab93617a94d93efa7b2fb13ae4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c76923da9354f5d4abe1ad3b42591852, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

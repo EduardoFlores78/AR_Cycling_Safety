@@ -3,25 +3,33 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    // --- 1. OVERTAKING SCENARIOS ---
-    public void LoadRearView_Overtake()
+
+    public void LoadRearView_Haptic()
     {
-        SceneManager.LoadScene("RearView"); 
+        SceneManager.LoadScene("RearView-Haptic"); 
     }
 
-    public void LoadSideMirror_Overtake()
+    public void LoadSideMirror_Haptic()
     {
-        SceneManager.LoadScene("SideMirror"); 
+        SceneManager.LoadScene("SideMirror-Haptic"); 
     }
 
-    // --- 2. STOPPING SCENARIOS ---
-    public void LoadRearView_Stop()
+    public void LoadRearView_Sound()
     {
-        SceneManager.LoadScene("RearView-Stop"); 
+        SceneManager.LoadScene("RearView-Sound"); 
     }
 
-    public void LoadSideMirror_Stop()
+    public void LoadSideMirror_Sound()
     {
-        SceneManager.LoadScene("SideMirror-Stop"); 
+        SceneManager.LoadScene("SideMirror-Sound"); 
+    }
+    public void LoadRearView_Both()
+    {
+        SceneManager.LoadScene("RearView-Both"); 
+    }
+
+    public void LoadSideMirror_Both()
+    {
+        SceneManager.LoadScene("SideMirror-Both"); 
     }
 }
