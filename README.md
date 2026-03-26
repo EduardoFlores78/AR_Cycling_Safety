@@ -1,6 +1,8 @@
 # AR_Cycling_Safety
 This is my 4th year project, it involves enhancing cyclist safety using an AR headset. Project consists of the implementation of IP camera streamed video to simulate rearview mirrors and haptic/sound feedback when car is approaching from behind. 
 
+For version 1.0 go to commit 250558434393634017cbc15730a266b879511611
+
 # Hardware & Software requirements
 ## Hardware 
 - Meta Quest 3
